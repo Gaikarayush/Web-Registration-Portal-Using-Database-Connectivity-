@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login and Register</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--<div class="container">
+    <h1>Welcome</h1>
+    <div class="buttons">
+      <button class="btn register">Register</button>
+      <button class="btn login">Login</button>
+    </div>
+  </div> -->
+  
+  
+  
+  
+  <div class="container">
+    <h1>Welcome</h1>
+    <div class="buttons">
+      <!-- Register button with onclick event to redirect to register.html -->
+      <button class="btn register" onclick="redirectToRegister()">Register</button>
+      <button class="btn login" onclick="redirectToLogin()"> Login</button>
+    </div>
+  </div>
+
+  <!-- JavaScript to handle the redirection -->
+  <script>
+    function redirectToRegister() {
+      window.location.href = 'register.html';
+    }
+    function redirectToLogin(){
+		window.location.href='login.html';
+	}
+  </script>
+  
+ 
+
+</body>
+</html>
